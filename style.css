@@ -1,0 +1,11 @@
+#countLabel{
+    display: flex;
+    justify-content: center;
+    font-size: 100;
+    font-family: Impact, sans-serif;
+}
+
+#btnContainer{
+    display: flex;
+
+}
