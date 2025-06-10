@@ -1,11 +1,25 @@
 #countLabel{
     display: flex;
     justify-content: center;
-    font-size: 100;
+    font-size: 10em;
     font-family: Impact, sans-serif;
 }
 
 #btnContainer{
     display: flex;
+    justify-content: center;
+}
 
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(129, 22, 22);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: red;
 }
